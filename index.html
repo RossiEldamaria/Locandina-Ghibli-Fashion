@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghibli Fashion- Arte & Artigianato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header con Hero Section -->
+    <header class="hero">
+        <div class="hero-background-image">
+            <img src="immagini/VIaMarconi2.jpg" alt="Via Marconi, Giglio Castello - Il nostro borgo medievale" class="hero-bg-img">
+        </div>
+        <div class="hero-content">
+            <h1 class="main-title">
+                <span class="title-line">Ghibli</span>
+                <span class="title-line">Fashion</span>
+            </h1>
+            <p class="hero-subtitle">Dove il mare incontra l'arte medievale</p>
+            <div class="cta-buttons">
+                <button class="cta-primary" onclick="openGoogleMaps()">Venite a trovarci</button>
+            </div>
+        </div>
+        <div class="floating-elements">
+            <div class="floating-item item-1">🎨</div>
+            <div class="floating-item item-2">🌊</div>
+            <div class="floating-item item-3">🏺</div>
+            <div class="floating-item item-4">✨</div>
+            <div class="floating-item item-5">🐚</div>
+            <div class="floating-item item-6">🎭</div>
+        </div>
+        <!-- Onde marine animate -->
+        <div class="ocean-waves">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+        </div>
+    </header>
+
+    <!-- Sezione Chi Siamo -->
+    <section class="about-section">
+        <div class="section-header">
+            <h2 class="section-title">🏰 La nostra storia</h2>
+            <div class="title-decoration"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-description">
+                    Benvenuti da <strong>Ghibli Fashion</strong>, 
+                    dove l'antica arte dell'artigianato si fonde con la magia del mare. 
+                    Ogni creazione racconta una storia di tradizione e passione.
+                </p>
+                <p class="about-description">
+                     lavoriamo con tecniche particolari e con tanta esperienza nel settore, 
+                    creando opere d'arte uniche, 
+                    ispirate alla bellezza del nostro borgo medievale e dall'incantevole paesaggio che ci circonda.
+                </p>
+                <p class="about-description">
+                    Dal legno alla ceramica passando dal metallo, 
+                    ogni pezzo è realizzato a mano con amore e dedizione, 
+                    mantenendo vivo lo spirito del nostro borgo.
+                </p>
+            </div>
+            <div class="about-visual">
+                <div class="about-icon">🏰</div>
+                <div class="about-icon">⚓</div>
+                <div class="about-icon">🎨</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Dove Siamo -->
+    <section class="location-section">
+        <div class="section-header">
+            <h2 class="section-title">🗺️ Venite a trovarci nel borgo più bello d'Italia</h2>
+            <div class="title-decoration"></div>
+        </div>
+        <div class="location-content">
+            <div class="location-image">
+                <img src="immagini/VIaMarconi2.jpg" alt="Via Marconi, Giglio Castello - Il nostro borgo medievale" class="location-img">
+            </div>
+            <div class="location-text">
+                <p class="location-description">
+                    Il nostro store si trova nel cuore di <strong>Giglio Castello</strong>, 
+                    un antico borgo medievale affacciato sul mare cristallino della Toscana. 
+                    Siamo facilmente raggiungibili dall'isola e sempre pronti ad accogliervi.
+                </p>
+                <p class="location-description">
+                    <strong>Indirizzo:</strong> Via Marconi 8, Giglio Castello<br>
+                    <strong>Attività:</strong> Ghibli Fashion<br>
+                    <strong>Orari estivi:</strong> Aperto tutti i giorni dalle 9:30 alle 23:00
+                </p>
+                <p class="location-description">
+                    Venite a scoprire la magia del nostro borgo marino, 
+                    dove ogni angolo racconta una storia di mare e tradizione.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Prodotti -->
+    <section class="products-section">
+        <div class="section-header">
+            <h2 class="section-title">🎨 Tesori di Ghibli</h2>
+            <div class="title-decoration"></div>
+        </div>
+        <div class="products-grid">
+            <div class="product-category">
+                <span class="product-icon">🪵</span>
+                <h3 class="product-title">Lavorazioni in Legno</h3>
+                <p class="product-description">
+                    Riproduzioni di fauna e flora dell'isola, 
+                    realizzati con tecniche tradizionali e materiali pregiati.
+                </p>
+            </div>
+            <div class="product-category">
+                <span class="product-icon">🐚</span>
+                <h3 class="product-title">Conchiglie & Coralli</h3>
+                <p class="product-description">
+                    Gioielli e decorazioni realizzati con conchiglie e coralli, 
+                    che portano la bellezza del mare nella vostra casa.
+                </p>
+            </div>
+            <div class="product-category">
+                <span class="product-icon">🎭</span>
+                <h3 class="product-title">Arte Medievale</h3>
+                <p class="product-description">
+                    Sculture e dipinti ispirati all'arte medievale, 
+                    che evocano la magia e il mistero del nostro borgo.
+                </p>
+            </div>
+            <div class="product-category">
+                <span class="product-icon">🏺</span>
+                <h3 class="product-title">Ceramiche </h3>
+                <p class="product-description">
+                    Vasi e contenitori, 
+                    realizzati e decorati con motivi marini e medievali.
+                </p>
+            </div>
+            <div class="product-category">
+                <span class="product-icon">✨</span>
+                <h3 class="product-title">Bigiotteria Artigianale</h3>
+                <p class="product-description">
+                    Bracciali, collane e altri accessori realizzati a mano, 
+                    ispirati alla bellezza del mare e dell'arte medievale.
+                </p>
+            </div>
+            <div class="product-category">
+                <span class="product-icon">🎨</span>
+                <h3 class="product-title">Quadri & Stampe</h3>
+                <p class="product-description">
+                    Opere d'arte originali che catturano l'essenza del nostro borgo, 
+                    perfette per arredare la vostra casa con stile.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Storia del Borgo -->
+    <section class="history-section">
+        <div class="section-header">
+            <h2 class="section-title">📜 Storia del Borgo</h2>
+            <div class="title-decoration"></div>
+        </div>
+        <div class="history-content">
+            <div class="history-text">
+                <p class="history-description">
+                    <strong>Giglio Castello</strong> è il borgo medievale più antico dell'Isola del Giglio, 
+                    situato a 405 metri sul livello del mare. Le sue origini risalgono al <strong>XII secolo</strong>, 
+                    quando i Pisani costruirono la rocca per difendere l'isola dalle incursioni saracene.
+                </p>
+                <p class="history-description">
+                    Il borgo è caratterizzato da <strong>mura difensive</strong> perfettamente conservate, 
+                    trioni circolari e la maestosa <strong>Rocca Aldobrandesca</strong> che domina il panorama. 
+                    Le strette vie acciottolate e le case in pietra locale raccontano secoli di storia marinara.
+                </p>
+                <p class="history-description">
+                    Nel <strong>Medioevo</strong>, Giglio Castello era un importante punto strategico per il controllo 
+                    del Mar Tirreno. Oggi, grazie alla sua posizione elevata, offre una vista mozzafiato 
+                    su tutto l'arcipelago toscano, dal Monte Argentario all'Isola d'Elba.
+                </p>
+            </div>
+            <div class="history-visual">
+                <div class="medieval-ship">🏰</div>
+                <div class="castle-tower">⚓</div>
+                <div class="fishing-net">🌊</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2013 Ghlibli Fashion. Tutti i diritti riservati.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
